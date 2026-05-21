@@ -1,0 +1,73 @@
+/* styles.css
+   CSS simple y entendible para principiantes.
+   Usa colores suaves, tipografía limpia y espacio agradable. */
+
+/* Estilo general de la página */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fb; /* color de fondo muy suave */
+  color: #1f2937; /* texto oscuro y fácil de leer */
+}
+
+/* Contenedor central para dejar márgenes y mejor lectura */
+body > * {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* Encabezado principal */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  color: #0f4c81; /* tono profesional azul oscuro */
+}
+
+/* Subtítulos */
+h2,
+h3 {
+  color: #102a43;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+/* Párrafos con mayor legibilidad */
+p {
+  line-height: 1.7;
+  font-size: 1rem;
+  background: #ffffff;
+  border-left: 4px solid #0f4c81;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(15, 76, 129, 0.08);
+}
+
+/* Espacio extra debajo del último párrafo */
+p:last-of-type {
+  margin-bottom: 24px;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 600px) {
+  body > * {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
