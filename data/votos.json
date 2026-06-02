@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1779856144482,
+    "identificacion": "123456",
+    "candidato": "gabriel",
+    "fecha": "2026-05-27T04:29:04.482Z"
+  },
+  {
+    "id": 1779856166770,
+    "identificacion": "132456",
+    "candidato": "Pikachu",
+    "fecha": "2026-05-27T04:29:26.770Z"
+  },
+  {
+    "id": 1779856196728,
+    "identificacion": "1234567",
+    "candidato": "gabriel",
+    "fecha": "2026-05-27T04:29:56.728Z"
+  },
+  {
+    "id": 1779944801590,
+    "identificacion": "1234",
+    "candidato": "gabriel",
+    "fecha": "2026-05-28T05:06:41.590Z"
+  },
+  {
+    "id": 1779944811301,
+    "identificacion": "1235",
+    "candidato": "gabriel",
+    "fecha": "2026-05-28T05:06:51.301Z"
+  },
+  {
+    "id": 1779944817316,
+    "identificacion": "1236",
+    "candidato": "gabriel",
+    "fecha": "2026-05-28T05:06:57.316Z"
+  },
+  {
+    "id": 1779944838234,
+    "identificacion": "1237",
+    "candidato": "Pikachu",
+    "fecha": "2026-05-28T05:07:18.234Z"
+  },
+  {
+    "id": 1779944843981,
+    "identificacion": "1238",
+    "candidato": "Pikachu",
+    "fecha": "2026-05-28T05:07:23.981Z"
+  }
+]

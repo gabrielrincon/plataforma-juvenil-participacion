@@ -1,0 +1,185 @@
+/* styles.css
+   CSS simple y entendible para principiantes.
+   Usa colores suaves, tipografía limpia y espacio agradable. */
+
+/* Estilo general de la página */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fb; /* color de fondo muy suave */
+  color: #1f2937; /* texto oscuro y fácil de leer */
+}
+
+/* Contenedor central para dejar márgenes y mejor lectura */
+body > * {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* Encabezado principal */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  color: #0f4c81; /* tono profesional azul oscuro */
+}
+
+/* Subtítulos */
+h2,
+h3 {
+  color: #102a43;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+/* Párrafos con mayor legibilidad */
+p {
+  line-height: 1.7;
+  font-size: 1rem;
+  background: #ffffff;
+  border-left: 4px solid #0f4c81;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(15, 76, 129, 0.08);
+}
+
+/* Espacio extra debajo del último párrafo */
+p:last-of-type {
+  margin-bottom: 24px;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 600px) {
+  body > * {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.btnPerfil {
+  background-color: #8A1538;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.seccion-candidatos {
+  background-color: white;
+}
+
+.contenedor-candidatos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.tarjeta-candidato {
+  border: 1px solid #ddd;
+  border-left: 5px solid #8A1538;
+  border-radius: 10px;
+  padding: 18px;
+  background-color: #fff;
+}
+
+.tarjeta-candidato h3 {
+  color: #8A1538;
+  margin-top: 0;
+}
+
+.tarjeta-candidato button {
+  margin-top: 10px;
+}
+
+.detalle-perfil {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #F9EEF3;
+  border-left: 5px solid #C2185B;
+  border-radius: 8px;
+}
+
+
+.formulario-candidato input,
+.formulario-candidato textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#mensajeGuardado {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #8A1538;
+}
+
+.tarjeta-guardada {
+  margin-top: 12px;
+  padding: 12px;
+  border-left: 5px solid #8A1538;
+  background-color: #F9EEF3;
+  border-radius: 8px;
+}
+
+.barra-resultado {
+  width: 100%;
+  background-color: #F9EEF3;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.barra-porcentaje {
+  height: 18px;
+  background-color: #8A1538;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+main label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #8A1538;
+}
+
+main input,
+main textarea,
+main select {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 6px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#mensajeAlerta {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #8A1538;
+}
